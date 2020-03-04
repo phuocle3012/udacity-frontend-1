@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel='stylesheet'
           type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Phuoc Le Blog</title>
 </head>
 
@@ -17,7 +18,7 @@
         <nav>
             <div class="grid--box row nav--content" id="nav">
                 <div class="col d-flex align-center justify-center">
-                    <img src="../assets/avatar.png" class="img--content"/>
+                    <img src="/udacity-frontend-1/assets/avatar.png" class="img--content"/>
                 </div>
 
                 <div class="col d-flex pa-2 align-center justify-center">
@@ -25,11 +26,11 @@
                 </div>
 
                 <div class="col d-flex pa-2 align-center">
-                    <a href="index.html">Home</a>
+                    <a href="/udacity-frontend-1/src/index.html">Home</a>
                 </div>
 
                 <div class="col d-flex pa-2 align-center">
-                    <a href="../src/html/pages/post.html">Posts</a>
+                    <a href="/udacity-frontend-1/src/html/pages/post.html">Post</a>
                 </div>
             </div>
         </nav>
@@ -40,7 +41,7 @@
             <div class="row">
                 <div class="col col-4 card--image">
                     <figure class="img--figure">
-                        <img src="../assets/nietzsche.jpg" class="img--content"/>
+                        <img src="/udacity-frontend-1/assets/nietzsche.jpg" class="img--content"/>
                         <figcaption>Nietzsche's quote</figcaption>
                     </figure>
                 </div>
@@ -206,8 +207,19 @@
         </div>
     </div>
 
-    <footer id="footer">
+    <footer>
+        <div class="grid--box row justify-space-between footer-content" id="footer">
+            <div class="col d-flex align-center">
+                @Phuoc Le 2020
+            </div>
 
+            <div class="col d-flex align-center justify-space-between">
+                <a class="social-icon" href="https://www.facebook.com/gio.ngaythuong"><i class="fa fa-facebook"></i></a>
+                <a class="social-icon" href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                <a class="social-icon" href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+        </div>
     </footer>
 </div>
 </body>
@@ -215,7 +227,7 @@
 
 <style>
     @import "css/main.css";
-    @import "css/nav.css";
-    @import "css/home.css";
-
+    @import "css/common/nav.css";
+    @import "css/common/footer.css";
+    @import "css/pages/home.css";
 </style>
