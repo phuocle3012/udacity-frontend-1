@@ -8,6 +8,10 @@
     --border-color: #546E7A;
 }
 
+body {
+    margin: 0;
+}
+
 #main {
     width: 1264px;
 }

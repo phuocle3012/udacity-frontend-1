@@ -1,0 +1,42 @@
+.post--container {
+    max-width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 64px 1fr 64px;
+    grid-template-columns: 1fr;
+    grid-gap: 8px;
+    grid-template-areas:
+            "hd"
+            "ct"
+            "ft";
+}
+
+.grid--box {
+    border: 1px solid var(--border-color);
+}
+
+#header {
+    grid-area: hd;
+}
+
+#footer {
+    grid-area: ft;
+}
+
+#side {
+ grid-area: sd;
+}
+
+#content {
+    grid-area: ct;
+}
+
+.short-bio {
+    font-style: italic;
+}
+
+.post--top-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

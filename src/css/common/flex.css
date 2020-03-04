@@ -25,6 +25,10 @@
     justify-content: center;
 }
 
+.justify-space-between {
+    justify-content: space-between;
+}
+
 .col-1 {
     width: calc(8.33% - 2px);
 }
